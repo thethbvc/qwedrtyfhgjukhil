@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "serverstore"
+version = "1.0.0"
+displayName = "Server Store"
+description = "/shop with Shop + Auction house paid in ores. Server side only."
+
+[[dependencies.serverstore]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.11,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.serverstore]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.11,1.22)"
+ordering = "NONE"
+side = "SERVER"
